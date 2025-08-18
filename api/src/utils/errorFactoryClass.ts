@@ -3,25 +3,11 @@ import { ErrorResponse, ErrorResponseBuilder } from './errorBuilderClass'
 
 // create your interface
 // make sure to include a method that deals with the builder
-interface CustomError {
-  message: string
-  code: string
-  buildResponse(): ErrorResponse
-}
+interface CustomError {}
 
 // create a tupe class the extends that interface
 // use the builder method inside to build you messages
-class GeneralError implements CustomError {
-  message = 'An unknown error occurred.'
-  code = 'GENERAL_ERROR'
-
-  buildResponse(): ErrorResponse {
-    return new ErrorResponseBuilder()
-      .setMessage(this.message)
-      .setCode(this.code)
-      .build()
-  }
-}
+class CustomErrorClass implements CustomError {}
 
 // make the concrete factory- this will handle all the types
 // tmake this method static
