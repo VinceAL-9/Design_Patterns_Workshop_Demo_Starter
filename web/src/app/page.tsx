@@ -1,31 +1,20 @@
-import Link from "next/link";
-
 export default function Home() {
   return (
     <div className="flex flex-col gap-4 p-10">
-      <h1>Frontend Design Patterns Workshop</h1>
-      {[
-        {
-          label: "Compound Components",
-          href: "/compound",
-        },
-        {
-          label: "Container/Presentational",
-          href: "/container-presentational",
-        },
-        {
-          label: "Custom Hooks",
-          href: "/custom-hooks",
-        },
-      ].map((item) => (
-        <Link
-          key={item.label}
-          href={item.href}
-          className="rounded-md bg-neutral-600 px-2 py-1"
-        >
-          {item.label}
-        </Link>
-      ))}
+      <h1>Welcome to the Starter Project Template.</h1>
+      <p>Head to `src/app/page.tsx` to edit this page.</p>
+      <p>
+        <span className="font-mono">useFetch</span> and{" "}
+        <span className="font-mono">useForm</span> from the Demo has been
+        provided if you need to use them.
+      </p>
+      <p>
+        a sample mongodb model is also available in the{" "}
+        <span className="font-mono">models</span> directory.
+      </p>
+      <p>
+        You may remove these messages when getting started
+      </p>
     </div>
   );
 }

@@ -1,5 +1,10 @@
 import { Document, Model, model, models, Schema } from "mongoose";
 
+
+
+//
+// You may make use of this or you may not
+//
 export interface ITodo extends Document {
   _id: string;
   title: string;
