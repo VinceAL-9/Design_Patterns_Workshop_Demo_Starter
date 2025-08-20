@@ -26,9 +26,11 @@ This demo is designed to help you understand and implement key software design p
 ## 🧠 What You'll Learn
 
 ### 🔹 Frontend (React)
-- Component-based architecture
+You'll build a simple web app using three react design patterns:
 
-> _Add more details here based on your actual frontend implementation._
+1. **Compound Components**
+2. **Smart & Dumb Components**
+3. **Custom Hooks**
 
 ### 🔹 Backend & API Design
 You'll build a custom API using three core design patterns:
@@ -76,4 +78,5 @@ If you're interested in reading further documentation
 | [tsx](https://www.npmjs.com/package/tsx) | ^4.20.3 | Fast TypeScript + JSX runtime for dev environments | [tsx docs](https://www.npmjs.com/package/tsx) |
 | [@types/express](https://www.npmjs.com/package/@types/express) | ^5.0.3 | Type definitions for Express | [DefinitelyTyped](https://www.npmjs.com/package/@types/express) |
 | [@types/cors](https://www.npmjs.com/package/@types/cors) | ^2.8.19 | Type definitions for CORS | [DefinitelyTyped](https://www.npmjs.com/package/@types/cors) |
+
 
