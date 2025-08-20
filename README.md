@@ -60,6 +60,12 @@ cd api
 npm install
 ```
 
+3. Run JSON Server mock
+```bash
+cd web
+npx json-server --watch db.json --port 4000
+```
+
 ## 📦Additional Information
 If you're interested in reading further documentation 
 | Package   | Version   | Description                                              | Docs |
@@ -78,5 +84,6 @@ If you're interested in reading further documentation
 | [tsx](https://www.npmjs.com/package/tsx) | ^4.20.3 | Fast TypeScript + JSX runtime for dev environments | [tsx docs](https://www.npmjs.com/package/tsx) |
 | [@types/express](https://www.npmjs.com/package/@types/express) | ^5.0.3 | Type definitions for Express | [DefinitelyTyped](https://www.npmjs.com/package/@types/express) |
 | [@types/cors](https://www.npmjs.com/package/@types/cors) | ^2.8.19 | Type definitions for CORS | [DefinitelyTyped](https://www.npmjs.com/package/@types/cors) |
+
 
 
