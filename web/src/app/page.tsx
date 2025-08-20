@@ -12,8 +12,12 @@ export default function Home() {
         a sample mongodb model is also available in the{" "}
         <span className="font-mono">models</span> directory.
       </p>
+      <p>You may remove these messages when getting started</p>
       <p>
-        You may remove these messages when getting started
+        You can run the json server with this command:{" "}
+        <span className="font-mono">
+          npx json-server --watch db.json --port 4000
+        </span>
       </p>
     </div>
   );
