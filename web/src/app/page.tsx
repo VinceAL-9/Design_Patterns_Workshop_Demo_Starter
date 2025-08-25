@@ -8,10 +8,6 @@ export default function Home() {
         <span className="font-mono">useForm</span> from the Demo has been
         provided if you need to use them.
       </p>
-      <p>
-        a sample mongodb model is also available in the{" "}
-        <span className="font-mono">models</span> directory.
-      </p>
       <p>You may remove these messages when getting started</p>
       <p>
         You can run the json server with this command:{" "}
