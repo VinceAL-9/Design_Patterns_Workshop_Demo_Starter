@@ -1,4 +1,4 @@
-# 🧩 Design Patterns Workshop Demo
+# 🧩 Design Patterns Workshop Demo Starter
 
 ![TypeScript](https://img.shields.io/badge/TypeScript-5.8.3-blue?style=for-the-badge&logo=typescript&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-20.x-green?style=for-the-badge&logo=node.js&logoColor=white)
