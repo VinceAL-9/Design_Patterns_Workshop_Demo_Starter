@@ -1,89 +1,36 @@
-# 🧩 Design Patterns Workshop Demo
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-![TypeScript](https://img.shields.io/badge/TypeScript-5.8.3-blue?style=for-the-badge&logo=typescript&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-20.x-green?style=for-the-badge&logo=node.js&logoColor=white)
-![Express](https://img.shields.io/badge/Express-5.1.0-lightgrey?style=for-the-badge&logo=express&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-8.17.0-darkgreen?style=for-the-badge&logo=mongodb&logoColor=white)
-![React](https://img.shields.io/badge/React-18.x-61DAFB?style=for-the-badge&logo=react&logoColor=white)
+## Getting Started
 
-Prepared by: [itsantonle](https://github.com/itsantonle), [wends05](https://github.com/wends05), [jpross14](https://github.com/jpross14) 
+First, run the development server:
 
-
----
-
-## 👋 Introduction
-
-Hello developers!  
-This is the starter project for the **Software Components Workshop Demo**, broken up into two parts:
-
-- **Frontend**: Built with React and optionally connected to MongoDB.
-- **Backend/API**: Built with Node.js, Express, and TypeScript.
-
-This demo is designed to help you understand and implement key software design patterns in a practical, hands-on way.
-
----
-
-## 🧠 What You'll Learn
-
-### 🔹 Frontend (React)
-You'll build a simple web app using three react design patterns:
-
-1. **Compound Components**
-2. **Smart & Dumb Components**
-3. **Custom Hooks**
-
-### 🔹 Backend & API Design
-You'll build a custom API using three core design patterns:
-
-1. **Builder Pattern**
-2. **Factory Pattern**
-3. **Adapter Pattern**
-
-To dive deeper into these patterns, check out [Refactoring Guru](https://refactoring.guru/).
-
----
-
-## 🚀 Getting Started
-
-To get started, clone the repository and install the dependencies:
-
-1. Clone this repository or download the zip file
 ```bash
-git clone https://github.com/itsantonle/Design_Patterns_Workshop_Demo_Starter.git
-```
-2. Install the dependencies
-```bash
-// navigate to frontend
-cd web
-//  navigate to backend
-cd api
-npm install
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
 ```
 
-3. Run JSON Server mock
-```bash
-cd web
-npx json-server --watch db.json --port 4000
-```
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-## 📦Additional Information
-If you're interested in reading further documentation 
-| Package   | Version   | Description                                              | Docs |
-|-----------|-----------|----------------------------------------------------------|------|
-| [express](https://www.npmjs.com/package/express)   | ^5.1.0    | Fast, minimalist web framework for Node.js              | [expressjs.com](https://expressjs.com/) |
-| [mongoose](https://www.npmjs.com/package/mongoose)  | ^8.17.0   | Elegant MongoDB object modeling for Node.js             | [mongoosejs.com](https://mongoosejs.com/) |
-| [cors](https://www.npmjs.com/package/cors)      | ^2.8.5    | Middleware to enable Cross-Origin Resource Sharing      | [CORS docs](https://expressjs.com/en/resources/middleware/cors.html) |
-| [dotenv](https://www.npmjs.com/package/dotenv)    | ^17.2.1   | Loads environment variables from `.env` file            | [dotenv.org](https://dotenv.org/) |
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-| Package | Version | Description | Docs |
-|--------|---------|-------------|------|
-| [nodemon](https://www.npmjs.com/package/nodemon) | ^3.1.10 | Automatically restarts the server on file changes | [nodemon docs](https://www.npmjs.com/package/nodemon) |
-| [typescript](https://www.npmjs.com/package/typescript) | ^5.8.3 | Type-safe JavaScript development | [typescriptlang.org](https://www.typescriptlang.org/) |
-| [ts-node](https://www.npmjs.com/package/ts-node) | ^10.9.2 | Run TypeScript directly in Node.js | [ts-node docs](https://www.npmjs.com/package/ts-node) |
-| [tsx](https://www.npmjs.com/package/tsx) | ^4.20.3 | Fast TypeScript + JSX runtime for dev environments | [tsx docs](https://www.npmjs.com/package/tsx) |
-| [@types/express](https://www.npmjs.com/package/@types/express) | ^5.0.3 | Type definitions for Express | [DefinitelyTyped](https://www.npmjs.com/package/@types/express) |
-| [@types/cors](https://www.npmjs.com/package/@types/cors) | ^2.8.19 | Type definitions for CORS | [DefinitelyTyped](https://www.npmjs.com/package/@types/cors) |
+## Learn More
 
+To learn more about Next.js, take a look at the following resources:
 
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+
+## Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
